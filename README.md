@@ -8,7 +8,7 @@ Uses `nodemon` for automatic server restarting.
 
 Create a new repository from this template on the Github website by clicking on the `create from template` button in the top right.
 
-Create a local folder for docker-compose files. `cd` into it and the clone your new repository. After cloning, rename the clone folder as `api`. Copy the contents of `example.env` and `example.docker-compose.yml` into the parent folder - into files without the `example.` prefix. If you are combining this with other templates then you will need to merge the contents rather than create new files. Open `.env` and ensure that API_HOST_PORT and API_HOST_DEBUG_PORT are available localy. If not then edit them appropriately.
+Create a local folder for docker-compose files. `cd` into it and the clone your new repository. After cloning, rename the clone folder as `api`. Copy the contents of `example.env` and `example.docker-compose.yml` into the parent folder - into files without the `example.` prefix. If you are combining this with other templates then you will need to merge the contents rather than create new files. Open `.env` and ensure that API_HOST_PORT and API_HOST_DEBUG_PORT are available locally. If not then edit them appropriately.
 
 ### Run
 
