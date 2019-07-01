@@ -11,9 +11,9 @@ describe("GET /foo ", () => {
     const response = await request(app).get("/foo");
     expect(response.statusCode).toBe(200);
     expect(Object.keys(response.body).sort()).toEqual([
-      'bar'
+      "bar"
     ]);
-    expect(response.body.bar).toBe('baz');
+    expect(response.body.bar).toBe("baz");
 
   });
 });
