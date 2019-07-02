@@ -22,3 +22,7 @@ To install new packages: Run the api docker with `docker-compose run api sh` and
 ### Test
 
 Testing is performed using Jest and SuperTest. See an example in `./foo.test.js`. Run tests from the parent folder with `docker-compose run api npm run test`
+
+### Linting
+
+Linting is done with eslint. Run the linter with `docker-compose run api npm run lint`.
